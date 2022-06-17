@@ -1,5 +1,10 @@
-# GORKSCREW
+# GNC
 
+用于ssh代理登录，用法和nc一样，具体使用像这样：
+
+```bash
+ssh root@ip -oProxyCommand="gnc --proxy_host 127.0.0.1 --proxy_port 7890 --dest_host %h --dest_port %p"
+```
 - [GORKSCREW](#gorkscrew)
   - [Dependencies](#dependencies)
   - [Arguments](#arguments)
