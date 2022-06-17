@@ -2,3 +2,4 @@
 gorkscrew
 !gorkscrew.go
 test.go
+*.exe
